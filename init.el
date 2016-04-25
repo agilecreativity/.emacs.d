@@ -57,6 +57,9 @@
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
 
+;; Or are we on linux?
+(setq is-linux (equal system-type 'gnu/linux))
+
 ;; Setup packages
 (require 'setup-package)
 
