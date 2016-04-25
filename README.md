@@ -123,3 +123,7 @@ overview of the most commonly used shortcuts to get you through this pain:
 * `F1 t   ` Basic tutorial
 * `F1 k   ` Help for a keybinding
 * `F1 r   ` Emacs' extensive documentation
+
+### Other custom bindings for US keyboard
+
+* `C-;   ` ace-jump-mode
