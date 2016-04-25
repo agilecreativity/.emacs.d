@@ -104,14 +104,36 @@
      cider
      yesql-ghosts
      string-edit
-     ;; Add some more packages
+     ;; Some more packages that I need
      atom-dark-theme
      cyberpunk-theme
+     seoul256-theme
+     solarized-theme
      zenburn-theme
-     ;; Needed for some packages
+     ;; Required by some packages
      edn
      hydra
      inflections
+     ;; Misc packages
+     ag
+     github-browse-file
+     git-timemachine
+     ;; Ruby development
+     bundler
+     goto-gem
+     inf-ruby
+     projectile
+     projectile-rails
+     rbenv
+     rspec-mode
+     ruby-additional
+     ruby-block
+     ruby-hash-syntax
+     ruby-refactor
+     ruby-tools
+     smartscan ;; Quickly jumps between symbols found at point
+     yaml-mode
+     yari
      )))
 
 (condition-case nil
