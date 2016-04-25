@@ -40,21 +40,19 @@
 
 (global-set-key (kbd "C-<f9>") 'toggle-presentation-mode)
 
-;; Use this only on OSX, adjust for Arch Linux
-;(use-default-theme)
-
 ;; You can just use this one directly!
 (cond
   ((string-equal system-type "gnu/linux")
     (progn
       (set-frame-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
       (set-default-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
-      (load-theme 'tango-dark)))
+      (load-theme 'zenburn)))
   ((string-equal system-type "darwin")
     (progn
       (set-frame-font "-PfEd-Inconsolata-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
       (set-default-font "-PfEd-Inconsolata-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
       (load-theme 'zenburn)
+      ;;(use-default-theme)
     )))
 
 ;; Don't defer screen updates when performing operations
