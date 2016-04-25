@@ -53,12 +53,15 @@
 
 (define-key paredit-mode-map (kbd "s-r") 'paredit-raise-sexp)
 
-(--each my-nasty-paredit-keybindings-remappings
-  (let ((original (car it))
-        (replacement (cadr it))
-        (command (car (last it))))
-    (define-key paredit-mode-map (read-kbd-macro original) nil)
-    (define-key paredit-mode-map (read-kbd-macro replacement) command)))
+;; Note: need to find the common keys for both Linux/OSX
+;; For now only use this if I am on OSX as <super-*> clashes with Gnome key binding
+(if (string-equal system-type "darwin")
+  (--each my-nasty-paredit-keybindings-remappings
+    (let ((original (car it))
+          (replacement (cadr it))
+          (command (car (last it))))
+      (define-key paredit-mode-map (read-kbd-macro original) nil)
+      (define-key paredit-mode-map (read-kbd-macro replacement) command))))
 
 ;; don't hijack \ please
 (define-key paredit-mode-map (kbd "\\") nil)
