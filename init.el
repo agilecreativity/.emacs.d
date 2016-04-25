@@ -131,6 +131,9 @@
      smartscan ;; Quickly jumps between symbols found at point
      yaml-mode
      yari
+     ;; Misc packages
+     command-log-mode ;; log the command for screencast/etc
+     helm-ag
      )))
 
 (condition-case nil
