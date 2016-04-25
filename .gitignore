@@ -16,3 +16,7 @@ site-lisp/adventur-mode
 /var/
 /.sx/
 /ensime/
+## common files
+history
+ido.last
+recentf
