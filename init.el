@@ -125,6 +125,7 @@
      projectile
      projectile-rails
      rbenv
+     robe
      rspec-mode
      ruby-additional
      ruby-block
