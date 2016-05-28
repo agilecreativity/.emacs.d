@@ -279,7 +279,7 @@
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
 
-;; Experimental:
+;; Experimental {{
 ;; NOTE: this will interfere with the flow of paredit so disable for now
 ;; From: https://www.gnu.org/software/emacs/manual/html_node/efaq/Matching-parentheses.html
 ;(global-set-key "%" 'match-paren)
@@ -289,3 +289,7 @@
 ;  (cond ((looking-at "\\s\(") (forward-list 1) (backward-char 1))
 ;        ((looking-at "\\s\)") (forward-char 1) (backward-list 1))
 ;        (t (self-insert-command (or arg 1)))))
+
+;; Better default
+(setq scroll-margin 5
+      scroll-preserve-screen-position 1)
