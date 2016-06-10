@@ -46,12 +46,12 @@
     (progn
       (set-frame-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
       (set-default-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
-      (load-theme 'zenburn)))
+      (load-theme 'tango-dark)))
   ((string-equal system-type "darwin")
     (progn
       (set-frame-font "-PfEd-Inconsolata-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
       (set-default-font "-PfEd-Inconsolata-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
-      (load-theme 'zenburn)
+      (load-theme 'tango-dark)
       ;;(use-default-theme)
     )))
 
