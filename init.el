@@ -121,6 +121,8 @@
      ;; Ruby development
      bundler
      goto-gem
+     ;helm-rails
+     ;helm-rb
      inf-ruby
      projectile
      projectile-rails
