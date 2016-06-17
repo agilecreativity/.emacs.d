@@ -139,6 +139,7 @@
      yari
      ;; Misc packages
      command-log-mode ;; log the command for screencast/etc
+     tagedit ;; paredit like for html
      helm-ag
      )))
 
