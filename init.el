@@ -107,6 +107,7 @@
      ;; Some more packages that I need
      atom-dark-theme
      cyberpunk-theme
+     molokai-theme
      seoul256-theme
      solarized-theme
      zenburn-theme
@@ -139,8 +140,10 @@
      yari
      ;; Misc packages
      command-log-mode ;; log the command for screencast/etc
-     tagedit ;; paredit like for html
      helm-ag
+     rainbow-mode
+     rainbow-delimiters
+     tagedit ;; paredit like for html
      )))
 
 (condition-case nil

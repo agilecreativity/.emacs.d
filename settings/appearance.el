@@ -44,8 +44,8 @@
 (cond
   ((string-equal system-type "gnu/linux")
     (progn
-      (set-frame-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
-      (set-default-font "-PfEd-Inconsolata-bold-normal-normal-*-18-*-*-*-m-0-iso10646-1")
+      (set-frame-font "-PfEd-Inconsolata-bold-normal-normal-*-20-*-*-*-m-0-iso10646-1")
+      (set-default-font "-PfEd-Inconsolata-bold-normal-normal-*-20-*-*-*-m-0-iso10646-1")
       (load-theme 'zenburn)))
   ((string-equal system-type "darwin")
     (progn

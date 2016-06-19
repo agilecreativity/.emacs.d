@@ -33,3 +33,9 @@ fc-list
 ```
 
 Need to find the workaround or alternate mapping for Linux based system.
+
+### Useful links
+
+- https://emacsthemes.com/
+- https://pawelbx.github.io/emacs-theme-gallery/
+- http://ergoemacs.org/emacs/emacs_env_var_paths.html
