@@ -41,14 +41,6 @@
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
 
-;; Write backup files to own directory
-(setq backup-directory-alist
-      `(("." . ,(expand-file-name
-                 (concat user-emacs-directory "backups")))))
-
-;; Make backups of files, even when they're in version control
-(setq vc-make-backup-files t)
-
 ;; Save point position between sessions
 (require 'saveplace)
 (setq-default save-place t)
@@ -111,10 +103,6 @@
      seoul256-theme
      solarized-theme
      zenburn-theme
-     ;; Required by some packages
-     edn
-     hydra
-     inflections
      ;; Misc packages
      ag
      github-browse-file
