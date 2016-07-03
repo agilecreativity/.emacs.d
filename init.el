@@ -140,6 +140,7 @@
      yari
      ;; Misc packages
      command-log-mode ;; log the command for screencast/etc
+     feature-mode
      helm-ag
      rainbow-mode
      rainbow-delimiters

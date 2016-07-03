@@ -17,4 +17,16 @@
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
 ;; starting directory
-(setq default-directory (concat (getenv "HOME") "/codes/others/clj-audiotagger"))
+;(setq default-directory (concat (getenv "HOME") "/codes/others"))
+
+;; Add sensible default settings
+(sensible-defaults/open-files-from-home-directory)
+(sensible-defaults/increase-gc-threshold)
+(sensible-defaults/backup-to-temp-directory)
+(sensible-defaults/delete-trailing-whitespace)
+(sensible-defaults/treat-camelcase-as-separate-words)
+(sensible-defaults/automatically-follow-symlinks)
+(sensible-defaults/single-space-after-periods)
+(sensible-defaults/offer-to-create-parent-directories-on-save)
+(sensible-defaults/apply-changes-to-highlighted-region)
+(sensible-defaults/overwrite-selected-text)
